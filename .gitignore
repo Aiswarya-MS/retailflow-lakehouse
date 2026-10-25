@@ -1,0 +1,16 @@
+# Keep local dataset files out of Git
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Mac
+.DS_Store
